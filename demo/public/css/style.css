@@ -1,0 +1,74 @@
+body {
+    background-color: #8BC34A;
+}
+/*customize bootstrap 3*/
+.panel-default, .navbar-collapse, .collapse{
+    border-color: #red !important;
+}
+.panel-default>.panel-heading{
+    color: #FFFFFF;
+    border-color: #ddd;
+    background-color: #a3d063;
+}
+.navbar-brand, .navbar-text ,.navbar-nav>li>a {
+    color: #FFFFFF !important;
+}
+.navbar-link{
+    font-weight: bold;
+    color:red;
+}
+.navbar-default{
+    border-color: #ddd;
+    background-color: #a3d063;
+}
+.form-control{
+    border-color: #a3d063 !important;
+}
+.list-group-item{
+    border-color: #a3d063 !important;
+}
+/*your css*/
+#listMessages {
+    height: 500px;
+    overflow: auto;
+}
+
+#user {
+    display: none;
+}
+
+#chat {
+    display: none;
+}
+
+#registerResult {
+    display: none;
+}
+
+.message {
+    background-color: #c7eafc;
+    width: 60%;
+    padding: 20px;
+    border-radius: 10px;
+    color: #45829b;
+    margin-bottom: 20px;
+    clear: both;
+}
+.message.right {
+    float: right;
+    background: #ffe6cb;
+    color: #c48843;
+    text-align: right;
+    clear: both;
+}
+.message .message-username {
+    font-size: 16px;
+    margin: 0 0 5px 0;
+}
+.message .message-content {
+    margin: 0;
+}
+
+#typing {
+    margin-bottom: 10px;
+}

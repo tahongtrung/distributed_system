@@ -1,0 +1,6 @@
+requirements: nodejs installed
+
+step 1: open cmd and run this command: node server.js 
+step 2: open browser and go: http://localhost:3000 (config at: /js/app.js)
+
+note: (require cmd always open when you run that command)
